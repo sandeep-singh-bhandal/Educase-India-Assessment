@@ -12,9 +12,9 @@ const SignUp = () => {
     const form = e.currentTarget;
 
     if (form.checkValidity()) {
-      navigate("/user"); // ✅ Navigate only if all fields are valid
+      navigate("/user");
     } else {
-      form.reportValidity(); // ❗ Shows validation message if not
+      form.reportValidity();
     }
   };
 
