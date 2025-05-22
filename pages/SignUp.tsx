@@ -50,9 +50,8 @@ const SignUp = () => {
 
         <div>
           <Button
-            bgColor="#642AF5"
-            color="white"
             title="Create Account"
+            style="text-white bg-[#6C25FF]"
             path="/"
           />
         </div>

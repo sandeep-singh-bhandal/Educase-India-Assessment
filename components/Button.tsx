@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom";
 
 const Button = ({
-  bgColor,
-  color,
   title,
+  style,
   path,
 }: {
-  bgColor: string;
-  color: string;
   title: string;
+  style: string;
   path: string;
 }) => {
   return (
     <Link
       to={path}
-      className={`flex justify-center w-full bg-[${bgColor}] rounded-sm py-2 my-1 cursor-pointer text-[${color}]`}
+      className={
+        "flex justify-center w-full  rounded-sm py-2 my-1 cursor-pointer" +
+        style
+      }
     >
       {title}
     </Link>

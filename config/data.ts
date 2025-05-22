@@ -3,14 +3,12 @@ export const WelcomePageData = {
   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   buttons: [
     {
-      bgColor: "#6C25FF",
-      color: "white",
+      style: "text-white bg-[#6C25FF]",
       title: "Create Account",
       path: "/sign-up",
     },
     {
-      bgColor: "#CEBAFB",
-      color: "#1D2226",
+      style: "text-[#1D2226] bg-[#CEBAFB]",
       title: "Already Registerd? Login",
       path: "login",
     },

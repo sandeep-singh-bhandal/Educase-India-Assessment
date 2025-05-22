@@ -11,11 +11,10 @@ const Welcome = () => {
           {WelcomePageData.description}
         </p>
         {WelcomePageData.buttons.map(
-          ({ bgColor, color, title, path }, index) => (
+          ({ style, title, path }, index) => (
             <Button
-              bgColor={bgColor}
-              color={color}
               title={title}
+              style={style}
               key={index}
               path={path}
             />
