@@ -3,7 +3,7 @@ export const WelcomePageData = {
   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   buttons: [
     {
-      style: "text-white bg-[#6C25FF]",
+      style: "!text-white bg-[#6C25FF]",
       title: "Create Account",
       path: "/sign-up",
     },
@@ -23,5 +23,13 @@ export const SignUpPageData = {
     "Email Address",
     "Password",
     "Company Name",
+  ],
+};
+export const LoginPageData = {
+  title: "Signin to your PopX account",
+  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  fields: [
+    "Email Address",
+    "Password",
   ],
 };

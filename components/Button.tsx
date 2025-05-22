@@ -13,7 +13,7 @@ const Button = ({
     <Link
       to={path}
       className={
-        "flex justify-center w-full  rounded-sm py-2 my-1 cursor-pointer" +
+        "flex justify-center w-full font-[500] text-[16px] rounded-sm py-2 my-1 cursor-pointer " +
         style
       }
     >
